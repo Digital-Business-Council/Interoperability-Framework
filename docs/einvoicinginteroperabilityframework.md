@@ -148,3 +148,40 @@ The Business Discovery service is a means of determining a business’s digital 
 However the digital capabilities registered for a business will change as their services develop and migrate over time. For example, a recipient’s Access Point provider may allocate their digital addresses. A benefit of the open Framework is the freedom for businesses to connect with any Access Point provider, or even establish their own Access Points. And so these addresses may change if the Access Point changes and this impacts the registered digital capability of the recipient. 
 
 Because of these continually changing details it is necessary to dynamically discover the current digital addresses of recipients. The finer details of the Business Discovery service are discussed later the Technical Interoperability section. 
+
+## 3.5 Semantic Interoperability
+### 3.5.1 How does semantic interoperability help eInvoicing
+
+Semantic interoperability is the ability for different business applications (in this case those of Buyers and Suppliers) to recognise and process the information they exchange. 
+
+However businesses operate in different industry, geopolitical, and regulatory contexts that may necessitate different rules and requirements for the information exchanged in an invoice. Consequently, most trading communities and businesses use differing forms of invoices. Transforming the data to suit different contexts is usually required when two parties using different invoice models or formats (for example, between two different communities) need to trade. Such transformations may be a complex and expensive process prone to misinterpretations. As many Suppliers (and Buyers) trade with many different communities this complexity is common and yet another barrier to eInvoicing. 
+
+One proven approach to enabling greater interoperability is to agree upon a collection of terms with well-defined meanings that are consistent across all contexts of use. This is called the semantic model of the core elements. 
+
+A semantic model is based on the idea that common pieces of information used in an invoice may have many names, use different terminology and be expressed in different ways, but the meanings are constant and commonly understood. Semantic models help us identify what the common pieces of information mean without the distraction of how we express this. This is similar to how drawing pictures helps people who don’t speak a common language to communicate.
+
+The semantic model is an attempt to remove the language/syntax/grammar/format from information to enable us to compare one thing with another and see if they are describing the same thing. In the software world this is very useful because: 
+
+- Technology is constantly evolving and standardising on the semantics ensures the invoice information that is standardised does not need  
+- When transforming an invoice between various formats the mappint of information is easier for software developers if there is a common semantic model to ference.
+
+### 3.5.2 The Core eInvoice Semantic Model
+
+The Core eInvoice Semantic Model consists of a dictionary of terms, concepts used, the minimal content of a document, the rules validating the content, the use of identifiers, and code lists. Adopting a single common semantic model promotes reliable information exchange and ensures technology neutrality. It is also easier and cheaper for enterprises to subscribe to a single model as compared to several. 
+
+### The Semantic Model:
+
+ - Incorporates invoice requirements for regulatory e.g. tax, commercial, technical, financial, and industry extensions; 
+ - Will be aligned with the Australian Reporting Dictionary (through incorporation); 
+ - Identifies the common case model; 
+ - Consistent reuse of standardised definitions and meanings pro
+ - Makes use of a proven methodology; and 
+ - The semantic model has been defined and elaborated in a consultative manner – reusing an existing international standard. 
+ 
+### 3.5.3 Digital Data Format
+
+The Core eInvoice Semantic Model in itself does not enable software developers to create the necessary eInvoice data files to exchange. The semantic model needs to be expressed in a standardised digital data format. The term data format is used to mean the software expression of the information described by the semantic model (also called the message syntax or markup language). In the data format all the data elements, concepts and validation rules defined in the semantic model are expressed in ways computer applications can process. 
+
+It may help to remember that the semantic model is for business people to understand while the digital data format is for software developers to understand and computer programs to process. 
+
+**The eInvoicing data format:**
