@@ -38,7 +38,7 @@ Finally, the meaning of the information in eInvoices needs to be understood by a
 
 
 
-## How does it work
+## 3.2 How does it work
 
 Interoperability means working together – a collaboration of systems, services and people with common understanding. An interoperability framework can be defined as the overarching set of policies, standards and guidelines that describes how organisations have agreed, or should agree, to do business with each other.
 
@@ -106,6 +106,45 @@ The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s 
 The Buyer may acknowledge when the invoice has been received. In which case: 
 
  - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
- - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO) 
+ - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
    The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
-   Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and 
+   Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and
+ - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
+   The Supplier’s Access Point transforms the response message into an acknowledgement format suitable for the Suppler (if required) and    forwards the acknowledgement to the Supplier. 
+   
+**Scenario Two: Recipient Created Tax Invoice (RCTI)**
+
+With RCTIs a Tax Invoice is issued by the Party receiving the goods or services rather than the Supplier. For example, a sugar cane farmer and a mill, have entered into an agreement that the Buyer will Invoice and provide payment for a delivery of cane based on the quality of the cane. On a delivery of cane to the mill, the Buyer creates a Recipient Created Tax Invoice. 
+
+1.Buyer’s business application to Access Point (CORNERS ONE to TWO)
+
+The Buyer’s business application creates a Recipient Created Tax Invoice detailing the purchase(s) made by the Buyer. The Buyer sends the invoice to their Access Point. 
+   
+2.Buyer's Access Point to Supplier's Access Point (CORNERS TWO to THREE)
+
+The Buyer’s Access Point transforms the Buyer’s Invoice data to the standardised eInvoice data format (if they differ). The Buyer’s Access Point then uses the Business Discovery service to discover the address of the Supplier’s Access Point before forwarding the eInvoice to that Access Point. 
+
+3.Access Point to Supplier's business application (CORNERS THREE to FOUR)
+
+The Supplier’s Access Point transforms the eInvoice data format to the Supplier’s required format (if they differ) and delivers this to the Supplier’s business application (for example, their accounts receivable system). 
+
+### 3.4.2 Business Identifier
+
+A key consideration in the Framework is that all parties who may receive eInvoices (or Responses) need to be uniquely identified.
+
+Business Identifiers are information elements that are used to establish the unique identity of businesses (organisations, agencies, branches within organisations, etc.) within the Framework. They are used to identify the parties (sender or receiver) for both business discovery and messaging exchanges. Business identifiers also appear within eInvoices themselves to identify parties such as the Supplier and Buyer. While it is common that the parties sending and receiving an eInvoice are also the Supplier and Buyer, it is not a requirement that they be so and different Business Identifiers may be used for these roles. 
+
+### Framework Business Identifiers;
+- Identify any Australian or international private and public sector recipient of digital documents (for example a Buyer) in a  standardised and platform independent way; 
+- Allows multiple established identification schemes and scheme registries; and 
+- Are encoded in a standardised and machine process-able data format. 
+
+### 3.4.3 Business Discovery
+
+Digital capability is the ability of an organisation to send and receive digital documents. The target for this digital capability is known as the digital address. For example, a Buyer will have a digital address if they are capable of receiving eInvoices. Delivering an eInvoice to their digital address will result in the Buyer be able to receive and process the eInvoice. 
+
+The Business Discovery service is a means of determining a business’s digital address for a given type of document within a given process. For example, by supplying a Buyer’s business identifier, the type of document (eInvoice) and the process involved (eInvoicing), the Business Discovery service will determine the Buyer’s digital address for eInvoices. 
+
+However the digital capabilities registered for a business will change as their services develop and migrate over time. For example, a recipient’s Access Point provider may allocate their digital addresses. A benefit of the open Framework is the freedom for businesses to connect with any Access Point provider, or even establish their own Access Points. And so these addresses may change if the Access Point changes and this impacts the registered digital capability of the recipient. 
+
+Because of these continually changing details it is necessary to dynamically discover the current digital addresses of recipients. The finer details of the Business Discovery service are discussed later the Technical Interoperability section. 
