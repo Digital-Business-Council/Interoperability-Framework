@@ -4,4 +4,6 @@ pages:
     - 'Audience': 'index.md'
     - 'Disclaimer': 'disclaimer.md'
     - 'Introduction': 'introduction.md'
+    - 'The einvoicing Interoperability Framework': 'einvoicinginteroperabilityframework.md'
+    - 'Technical Specifications': 'technicalspecifications.md'
 theme: mkdocs
