@@ -230,3 +230,13 @@ Two services are provided to achieve dynamic and adaptable business discovery:
  
    The sending Access Point will then use the DCP's address to discover the digital capabilities (such as digital address, document types, processes and message protocals supported) of the reicpient.
    
+### Business discovery will:
+ - Achieve interoperability and accessibility – as information about participants (delivery addresses and transactions supported) will be easily discoverable and accessible to all parties in the framework; 
+ - Support the expansion of the eDelivery network by allowing new businesses to join in a flexible manner; and 
+ - Provide the ability to switch or change recipient addressing information when required. 
+
+### 3.6.3 Message Delivery
+
+Message Delivery enables the exchange of any digital documents (such as eInvoices) between two Access Points in an interoperable, secure, reliable and trusted way.
+
+Access Points implement the Message Delivery profile and ensure that data is sent and received reliably and securely. 
