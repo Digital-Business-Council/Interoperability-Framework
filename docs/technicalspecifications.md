@@ -37,3 +37,14 @@ ebMS3/AS4 has emerged as the strategic standard for a number of initiatives arou
  - The Australian standard for processing superannuation data and payments electronically (SuperStream). 
  
 Implementations of the ebMS3/AS4 are available in both Open and Closed Source format and products can be certified to ensure strict adherence to the specification.
+
+###4.2.2 Business Discovery – Digital Capability Publisher 
+
+A Digital Capability Publisher (DCP) identifies a business’ capabilities for receiving digital documents (such as eInvoices). These capabilities include what processes and data formats they support and the digital address for delivering documents. Additional metadata information may be required to facilitate establishing mutual trust between businesses. 
+
+The OASIS Service Metadata Publishing (SMP) specification describes a solution that is fit for purpose and specifically addresses the concerns for a business' metadata registry. SMP has been published as an OASIS Committee Specification and has been proven in established European environments (such as PEPPOL). This standard has also been adopted by e-SENS as one of their e-Delivery building blocks. Open source components are available4 and there are over 35 implementations within the PEPPOL and e-SENS communities. 
+
+It is expected that the DCP profile will be implemented by number of DCP providers. Having multiple providers will allow the network to scale as the number of registered businesses and capabilities increases. DCP providers will need to make their own decisions on whether to implement the specification independently or use an open source component. DCP providers and the businesses they register are responsible for the privacy and integrity of their own capability information. 
+
+###4.2.3 Business Discovery – Digital Capability Locator 
+
