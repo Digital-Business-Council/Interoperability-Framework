@@ -1,10 +1,13 @@
 #8. References
 
  1. Koch, B 2015, Implementing E-Invoicing on a broad scale, Billentis, Australia. 
+ 
 
  2. Pentinnen, E 2008, Electronic Invoicing Initiatives in Finland - Taking the Steps towards the Real Time Economy in the European Union, HSE, Helsinki, Finland. 
+ 
 
  3. Atradius Payment Practices Barometer, 2015, viewed February 2016. https://atradius.com.au/reports/payment-practices-barometer-australia-2015-.html 
+ 
  
  4. Carnell, K & Strong, P 2016, eInvoicing Offers Huge Potential for Australian Businesses, EntreHub, viewed February 2016 http://www.entrehub.org/#!eInvoicing-offers-huge-potential-for-Australian-businesses/ c1fdu/569eaecb0cf20b5fa8eb93e0 
  
