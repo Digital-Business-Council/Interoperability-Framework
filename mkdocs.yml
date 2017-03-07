@@ -4,6 +4,7 @@ pages:
     - 'Audience': 'index.md'
     - 'Disclaimer': 'disclaimer.md'
     - 'Introduction': 'introduction.md'
+    - 'Motivation': 'motivation.md'
     - 'The einvoicing Interoperability Framework': 'einvoicinginteroperabilityframework.md'
     - 'Technical Specifications': 'technicalspecifications.md'
     - 'Implementation Guidance': 'implementationguidance.md'
