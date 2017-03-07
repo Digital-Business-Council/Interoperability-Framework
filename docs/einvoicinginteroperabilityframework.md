@@ -218,3 +218,15 @@ eDelivery will create a community of federated Access Points that are all confor
 A greater return on investment is possible as eDelivery is document agnostic, meaning users can potentially transfer any Council endorsed structured or unstructured documents between Access Points. 
 
 The components of eDelivery include business discovery, message delivery and trust enablement. 
+
+### 3.6.2 Business Discovery
+
+Two services are provided to achieve dynamic and adaptable business discovery: 
+ - Digital Capability Locator (DCL)
+   
+   DCL lookup enables a sending Access Point to dynamically discover the digital address of the recipient's Digital Capability Publisher (using their business identifier); and
+   
+ - Digital Capability Publishers (DCP)
+ 
+   The sending Access Point will then use the DCP's address to discover the digital capabilities (such as digital address, document types, processes and message protocals supported) of the reicpient.
+   
