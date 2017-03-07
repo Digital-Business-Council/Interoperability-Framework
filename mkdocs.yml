@@ -6,4 +6,10 @@ pages:
     - 'Introduction': 'introduction.md'
     - 'The einvoicing Interoperability Framework': 'einvoicinginteroperabilityframework.md'
     - 'Technical Specifications': 'technicalspecifications.md'
+    - 'Implementation Guidance': 'implementationguidance.md'
+    - 'Governance': 'governance.md'
+    - 'Forward Plan': 'forwardpland.md'
+    - 'References': 'references.md'
+    - 'Glossary': 'glossary.md'
+    - 'Appendix': 'appendix.md'
 theme: mkdocs
