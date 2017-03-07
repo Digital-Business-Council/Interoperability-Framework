@@ -185,3 +185,36 @@ The Core eInvoice Semantic Model in itself does not enable software developers t
 It may help to remember that the semantic model is for business people to understand while the digital data format is for software developers to understand and computer programs to process. 
 
 **The eInvoicing data format:**
+
+ - Is based on an international standard; 
+ - Is aligned with relevant and established international standards. Australian standards and practices will only be adopted where international standards are not applicable; 
+ - Encompasses procure to pay documents: 
+ - Will not inhibit the future extension to other elements of the procure to pay process; 
+ - Has a published semantic model; 
+ - Will not impose a particular design on internal solutions for stakeholders; 
+ - Has an established user base; 
+ - Has open participation and governance; 
+ - Is open, royalty free and vendor agnostic; 
+ - Allows development of tools that are easily available; 
+ - Has interfaces with common business applications; and 
+ - Enables business to business (B2B) connectivity irrespective of platform or solution to exchange electronic business transactions.
+ 
+## 3.6 Technical Interoperability
+### 3.6.1 eDelivery
+
+Technical interoperability facilitates an open trading partner network where: 
+ - Any Buyer and Supplier will be able to: 
+  - Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
+ - All Access Points will:
+  - Conform to the same sets of standards and business service rules; 
+  - Be secured, by conforming to the trust mechanism between Access Points; 
+  - Exchange digital documents with other Access Points using the Council approved Data Format; 
+  - Provide interoperability of data exchanged by supporting a common semantic model, that can be used to transform different formats as required; 
+  - Derive the digital address of the eInvoice recipient through the Business Discovery service; and 
+  - Access the Business Discovery service independent of the document exchange protocol to ensure other protocols may be supported in future. 
+  
+eDelivery will create a community of federated Access Points that are all conformant to the same technical requirements and therefore capable of interacting with each other. As a result, businesses that have developed business systems independently from each other or implemented commercially-off-the-shelf (COTS) solutions/services can reliably and securely exchange digital business documents.
+
+A greater return on investment is possible as eDelivery is document agnostic, meaning users can potentially transfer any Council endorsed structured or unstructured documents between Access Points. 
+
+The components of eDelivery include business discovery, message delivery and trust enablement. 
