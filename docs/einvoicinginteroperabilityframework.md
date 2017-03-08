@@ -240,3 +240,39 @@ Two services are provided to achieve dynamic and adaptable business discovery:
 Message Delivery enables the exchange of any digital documents (such as eInvoices) between two Access Points in an interoperable, secure, reliable and trusted way.
 
 Access Points implement the Message Delivery profile and ensure that data is sent and received reliably and securely. 
+
+The Message Delivery profile has the following features:
+ - Interoperability:
+  - Is based on an established international standard;
+  - Will support the four-corner model;
+  - Will also support a three-corner model (two businesses using the same third party access point);
+  - Is not dependent on the format or content of the document delivered; and
+  - Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
+ - Security:
+  - Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
+  - Supports the encryption to preserve confidentiality; and
+  - Ensures the origin and destination Access Points are trusted;
+ - Reliability:
+  - Guarantees the data and documents are delivered once and only once;
+  - Provides certainty that the data and documents are delivered; and
+  - Ensures non-redpudiation of receipt and origin of every exchange; and
+ - Scalability and Performance:
+  - Adapts to an increasing number of Access Points;
+  - Allows for large documents to be transmitted; and
+  - Supports high throughputs
+  
+### 3.6.4 Trust Enablement
+
+The current Framework establishes a trusted environment between accredited Access Points3 (corners 2 and 3). Future development may also include creating a trust domain for end-to-end authentication if required. 
+
+The trust model:
+ - Leverages the strength of Public Key Infrastructure for security and confidentiality; 
+ - Overcomes the complexity and scalability issues with traditional digital certificate based public key infrastructure; 
+ - Provides freedom of choice to Access Points to maximise use of current investments; and 
+ - Provides a viable solution until there is a national digital credential initiative, which may take time to develop and implement. 
+ 
+The approach taken is to leverage the experiences and successes of both local and international networks (for example, services such as PEPPOL, e-SENS and Superstream) to:
+ - Establish strong governance under the auspices of the Council. This would include Digital Capability Publisher and Access Point provider interoperability agreements, binding implementation practices, testing and certification arrangements; 
+ - Ensure Business Discovery only supplies details of accredited Digital Capability Publishers and Access Point providers;
+ - Use digital certificates to ensure confidentiality between Access Points and to validate that messages are only received from accredited Access Points. It should be noted the mutual exchange of certificates is a widely used simple implementation of the Direct Trust Model. Due to the limited scalability of mutual certificate exchange, the approach of recording public keys with the Council’s centralised register of accredited service providers (updated during the accreditation process) is prescribed. To cater for business application level trust a similar model could potentially be used, with the storage of a business certificate in its Digital Capability Publisher; and 
+ - Allow businesses to have a choice of accredited Digital Capability Publishers and Access Points, with businesses also being able to choose to implement their own accredited Access Points and Digital Capability Publishers. 
