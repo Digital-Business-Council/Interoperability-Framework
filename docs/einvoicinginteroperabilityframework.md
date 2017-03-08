@@ -84,7 +84,7 @@ While there are significant benefits in digitising the whole end to end process,
 
 It is also recognised that procure to pay forms one part of an overall set of supply chain processes, such as the financial supply chain (dealing with banking/payment) and the logistical supply chain (dealing with receipt/delivery of the purchased items). Information flows into and out of these processes and so suitable interfaces will also be required. 
 
-**Business scenarios**
+#### Business scenarios
 
 The business processes introduced in this document are industry neutral and depict a generic cross-industry set of scenarios. 
 
