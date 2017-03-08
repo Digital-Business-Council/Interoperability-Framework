@@ -100,6 +100,7 @@ The business processes introduced in this document are industry neutral and depi
    The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s required format (if they differ) and delivers this to        the Buyer’s business application (for example, their accounts payable system). 
 
 4. **[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE)** 
+   
    The Buyer may acknowledge when the invoice has been received. In which case:
     - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
     - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO) 
