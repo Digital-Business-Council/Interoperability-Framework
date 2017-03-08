@@ -158,18 +158,18 @@ The semantic model is an attempt to remove the language/syntax/grammar/format fr
 - Technology is constantly evolving and standardising on the semantics ensures the invoice information that is standardised does not need  
 - When transforming an invoice between various formats the mappint of information is easier for software developers if there is a common semantic model to ference.
 
- - **Any Buyer and Supplier will be able to:** 
+- **Any Buyer and Supplier will be able to:** 
  
-   - Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
+  - Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
  
- - **All Access Points will:**
+- **All Access Points will:**
  
-   - Conform to the same sets of standards and business service rules;
-   - Be secured, by conforming to the trust mechanism between Access Points; 
-   - Exchange digital documents with other Access Points using the Council approved Data Format; 
-   - Provide interoperability of data exchanged by supporting a common semantic model, that can be used to transform different formats as required; 
-   - Derive the digital address of the eInvoice recipient through the Business Discovery service; and 
-   - Access the Business Discovery service independent of the document exchange protocol to ensure other protocols may be supported in future. 
+  - Conform to the same sets of standards and business service rules;
+  - Be secured, by conforming to the trust mechanism between Access Points; 
+  - Exchange digital documents with other Access Points using the Council approved Data Format; 
+  - Provide interoperability of data exchanged by supporting a common semantic model, that can be used to transform different formats as required; 
+  - Derive the digital address of the eInvoice recipient through the Business Discovery service; and 
+  - Access the Business Discovery service independent of the document exchange protocol to ensure other protocols may be supported in future. 
   
 eDelivery will create a community of federated Access Points that are all conformant to the same technical requirements and therefore capable of interacting with each other. As a result, businesses that have developed business systems independently from each other or implemented commercially-off-the-shelf (COTS) solutions/services can reliably and securely exchange digital business documents.
 
