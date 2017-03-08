@@ -80,7 +80,7 @@ The procurement, accounts payable, accounts receivable and sales processes of an
 
 While there are significant benefits in digitising the whole end to end process, overseas evidence suggests it will be more effective and achieve broader market adoption by focussing on the invoice process as the first step. Eventually, as the ecosystem matures, the entire procure-to-pay process will be digitised (Penttinen, 2008). 
 
-![Procuretopayprocess-Logo] (images/Procure-to-pay.PNG)
+![Procuretopay-Logo](/images/Procure-to-pay.PNG)
 
 It is also recognised that procure to pay forms one part of an overall set of supply chain processes, such as the financial supply chain (dealing with banking/payment) and the logistical supply chain (dealing with receipt/delivery of the purchased items). Information flows into and out of these processes and so suitable interfaces will also be required. 
 
