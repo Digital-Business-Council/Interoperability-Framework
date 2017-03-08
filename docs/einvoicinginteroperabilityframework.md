@@ -101,12 +101,11 @@ The business processes introduced in this document are industry neutral and depi
 
 4. **[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE)** 
    The Buyer may acknowledge when the invoice has been received. In which case: 
-
-  - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
-  - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
+   - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
+   - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
    The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
    Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and
-  - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
+   - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
    The Supplier’s Access Point transforms the response message into an acknowledgement format suitable for the Suppler (if required) and    forwards the acknowledgement to the Supplier. 
    
 **Scenario Two: Recipient Created Tax Invoice (RCTI)**
