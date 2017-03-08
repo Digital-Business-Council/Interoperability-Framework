@@ -70,7 +70,7 @@ Within the public sector there is ongoing work within the three levels of govern
 
 As part of the work to provide implementation guidance and ongoing governance of the framework the Council is expected to provide interoperability agreements for service providers so that: 
  - There is an appropriate approach to accreditation and service levels for service providers with periodic reviews; 
- -  There will be no charges for exchanging documents between Access Points; and 
+ - There will be no charges for exchanging documents between Access Points; and 
  - There will be an open market for providing Access Points. 
  
 ## 3.4 Organisational Interoperability
@@ -97,16 +97,16 @@ The business processes introduced in this document are industry neutral and depi
    The Supplier’s Access Point transforms the Supplier’s invoice data to the standardised eInvoice data format (if it is not already in    that format). The Supplier’s Access Point then uses the Business Discovery service (defined later in this document) to determine the    address of the Buyer’s Access Point before forwarding the eInvoice to that Access Point. 
 
 3. **Buyer's Access Point to Buyer's business application (CORNERS THREE to FOUR)**
-   The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s required format (if they differ) and delivers this to the    Buyer’s business application (for example, their accounts payable system). 
+   The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s required format (if they differ) and delivers this to        the Buyer’s business application (for example, their accounts payable system). 
 
 4. **[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE)** 
-   The Buyer may acknowledge when the invoice has been received. In which case: 
-   - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
-   - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
-   The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
-   Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and
-   - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
-   The Supplier’s Access Point transforms the response message into an acknowledgement format suitable for the Suppler (if required) and    forwards the acknowledgement to the Supplier. 
+   The Buyer may acknowledge when the invoice has been received. In which case:
+    - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
+    - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO) 
+      The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
+      Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and
+    - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
+      The Supplier’s Access Point transforms the response message into an acknowledgement format suitable for the Suppler (if required)       and forwards the acknowledgement to the Supplier. 
    
 **Scenario Two: Recipient Created Tax Invoice (RCTI)**
 
