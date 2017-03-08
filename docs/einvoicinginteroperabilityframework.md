@@ -90,27 +90,23 @@ The business processes introduced in this document are industry neutral and depi
 
 **Scenario One: Invoicing (and Adjustment invoices)**
 
-1.Supplier's business application to Supplier's Access Point (CORNERS ONE to TWO)
- 
-The Supplier’s business application (for example, an accounts receivable system) creates an invoice detailing purchase(s) made by the Buyer. The Supplier sends this invoice data to their Access Point.
+1. **Supplier's business application to Supplier's Access Point (CORNERS ONE to TWO)**
+   The Supplier’s business application (for example, an accounts receivable system) creates an invoice detailing purchase(s) made by the    Buyer. The Supplier sends this invoice data to their Access Point.
 
-2.Supplier's Access Point to Buyer's Access Point (CORNERS TWO to THREE)
- 
-The Supplier’s Access Point transforms the Supplier’s invoice data to the standardised eInvoice data format (if it is not already in that format). The Supplier’s Access Point then uses the Business Discovery service (defined later in this document) to determine the address of the Buyer’s Access Point before forwarding the eInvoice to that Access Point. 
+2. **Supplier's Access Point to Buyer's Access Point (CORNERS TWO to THREE)**
+   The Supplier’s Access Point transforms the Supplier’s invoice data to the standardised eInvoice data format (if it is not already in    that format). The Supplier’s Access Point then uses the Business Discovery service (defined later in this document) to determine the    address of the Buyer’s Access Point before forwarding the eInvoice to that Access Point. 
 
-3.Buyer's Access Point to Buyer's business application (CORNERS THREE to FOUR)
- 
-The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s required format (if they differ) and delivers this to the Buyer’s business application (for example, their accounts payable system). 
+3. **Buyer's Access Point to Buyer's business application (CORNERS THREE to FOUR)**
+   The Buyer’s Access Point transforms the eInvoice data format to the Buyer’s required format (if they differ) and delivers this to the    Buyer’s business application (for example, their accounts payable system). 
 
-4.[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE) 
- 
-The Buyer may acknowledge when the invoice has been received. In which case: 
+4. **[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE)** 
+   The Buyer may acknowledge when the invoice has been received. In which case: 
 
- - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
- - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
+  - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
+  - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO)
    The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
    Business Discovery service to discover the location of the Supplier’s Access Point and forwards the response message; and
- - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
+  - Supplier’s Access Point to Supplier’s business application (CORNERS TWO to ONE)
    The Supplier’s Access Point transforms the response message into an acknowledgement format suitable for the Suppler (if required) and    forwards the acknowledgement to the Supplier. 
    
 **Scenario Two: Recipient Created Tax Invoice (RCTI)**
