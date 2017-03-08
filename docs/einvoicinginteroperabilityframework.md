@@ -127,7 +127,7 @@ A key consideration in the Framework is that all parties who may receive eInvoic
 
 Business Identifiers are information elements that are used to establish the unique identity of businesses (organisations, agencies, branches within organisations, etc.) within the Framework. They are used to identify the parties (sender or receiver) for both business discovery and messaging exchanges. Business identifiers also appear within eInvoices themselves to identify parties such as the Supplier and Buyer. While it is common that the parties sending and receiving an eInvoice are also the Supplier and Buyer, it is not a requirement that they be so and different Business Identifiers may be used for these roles. 
 
-### Framework Business Identifiers;
+#### Framework Business Identifiers;
 - Identify any Australian or international private and public sector recipient of digital documents (for example a Buyer) in a  standardised and platform independent way; 
 - Allows multiple established identification schemes and scheme registries; and 
 - Are encoded in a standardised and machine process-able data format. 
@@ -162,7 +162,7 @@ The semantic model is an attempt to remove the language/syntax/grammar/format fr
 
 The Core eInvoice Semantic Model consists of a dictionary of terms, concepts used, the minimal content of a document, the rules validating the content, the use of identifiers, and code lists. Adopting a single common semantic model promotes reliable information exchange and ensures technology neutrality. It is also easier and cheaper for enterprises to subscribe to a single model as compared to several. 
 
-### The Semantic Model:
+#### The Semantic Model:
 
  - Incorporates invoice requirements for regulatory e.g. tax, commercial, technical, financial, and industry extensions; 
  - Will be aligned with the Australian Reporting Dictionary (through incorporation); 
@@ -223,7 +223,7 @@ Two services are provided to achieve dynamic and adaptable business discovery:
  
    The sending Access Point will then use the DCP's address to discover the digital capabilities (such as digital address, document types, processes and message protocals supported) of the reicpient.
    
-### Business discovery will:
+#### Business discovery will:
  - Achieve interoperability and accessibility – as information about participants (delivery addresses and transactions supported) will be easily discoverable and accessible to all parties in the framework; 
  - Support the expansion of the eDelivery network by allowing new businesses to join in a flexible manner; and 
  - Provide the ability to switch or change recipient addressing information when required. 
