@@ -18,7 +18,8 @@ As the digital economy grows, the trend is toward the increased use of 4-corner 
 
 A key requirement for the eInvoicing Interoperability Framework is that a Buyer’s or Supplier’s digital address and digital capabilities may change over time. The associated challenge with using an ‘open’ 4-corner model is finding out what businesses are reachable and what their digital capabilities are. The Framework resolves this by establishing a business discovery service. The idea of using the 4-corner model with business discovery is a well-established and an internationally accepted solution, and an extension to the existing Superstream model. 
 
-Figure 1: The Four Corner model with Business Discovery applied to eInvoicing 
+
+![Fourcornermodel-Logo] (/images/Four-corner-model.PNG)
 
 The actors involved in eInvoicing are: 
 
