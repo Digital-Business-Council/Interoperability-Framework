@@ -12,7 +12,6 @@ Digital Capability Publisher (DCP)| Council profile of the [OASIS Service Metada
 Business Identifiers | Council policy on the use of business identifiers | -                 
 **eInvoicing** | Semantic model | Council semantic model of the core elements of an electronic invoice  |     
 Data Format | Council profile for [OASIS UBL 2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html) | - 
-
 Table 1 - Summary of Technical Specifications 
 
 The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software.
@@ -62,8 +61,8 @@ To ensure availability, accuracy, efficiency and adherence to the specification,
 
 A key consideration is that parties exchanging eInvoices (businesses) need to be uniquely identified within the Interoperability Framework. The Council’s Business Identifier policy establishes a scheme for uniquely identifying parties where a business identifier is a combination of: 
 
- a. An issuing agency code from a controlled set for identification schemes, using [International Code Designators (ISO/IEC 6523)](http://www.cyber-identity.com/iso6523); and 
- b. A value provided by the issuing agency 
+1. An issuing agency code from a controlled set for identification schemes, using [International Code Designators (ISO/IEC 6523)](http://www.cyber-identity.com/iso6523); and 
+2. A value provided by the issuing agency 
 
 To ensure global uniqueness the business identifier value needs to be valid with respect to the authoritative source of the relevant International Code Designator. The Framework does not proscribe a specific identification schema and businesses may choose the most appropriate for their environment that satisfies the Council’s Business Identifier policy. 
 
