@@ -16,7 +16,7 @@ This chapter provides more information on the technical specifications underpinn
 
 Table 1 - Summary of Technical Specifications 
 
-The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software. ##4.2 Service Details 
+The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software.
 
 ##4.2 Service Details 
 
@@ -53,10 +53,9 @@ It is expected that the DCP profile will be implemented by number of DCP provide
 
 As it is expected that there will be many DCPs another service is required to establish which DCP is used by which business identifier. The Digital Capability Locator (DCL) is a master index that associates a business identifier with the DCP containing the relevant digital capabilities of the business. There is only one DCL in the eDelivery framework. Access Points query this DCL to find which DCP they subsequently query to obtain the correct digital address for the document to be sent. 
 
-Business Discovery uses the OASIS Business Document Metadata Service Location Committee Specification (referred to as Service Metadata Locator or SML). The SML specification defines service discovery method values for use in Domain Name System (DNS) resource records. It is an application of the more generic Dynamic Delegation Discovery Services (DDDS) as defined in multiple RFCs. DNS is critical to internet and telephony services, which need a readily available, highly reliable and a proven, lightweight and distributed solution. As 
+Business Discovery uses the OASIS Business Document Metadata Service Location Committee Specification (referred to as Service Metadata Locator or SML). The SML specification defines service discovery method values for use in Domain Name System (DNS) resource records. It is an application of the more generic Dynamic Delegation Discovery Services (DDDS) as defined in multiple RFCs. DNS is critical to internet and telephony services, which need a readily available, highly reliable and a proven, lightweight and distributed solution. 
 
-SML uses standard DNS, several implementation options are available including open source. 
-SML was developed as part of PEPPOL transport infrastructure service and has subsequently been published by OASIS as a Committee Specification. The OASIS specification has now been adopted by e-SENS as part of their e-Delivery building block5. 
+As SML uses standard DNS, several implementation options are available including open source. SML was developed as part of PEPPOL transport infrastructure service and has subsequently been published by OASIS as a Committee Specification. The OASIS specification has now been adopted by e-SENS as part of their e-Delivery building block. 
 
 To ensure availability, accuracy, efficiency and adherence to the specification, the eDelivery DCL requires a separate, formalised governance model with associated testing and certification. 
 
@@ -81,8 +80,7 @@ The use of ABN for the Australian business identifier will benefit the business-
 
 However, there are at least two scenarios where the ABN may not suffice: 
 
- 1. Australian business that operating separate business units (under the same ABN) and may require different digital addresses for    
-    different eInvoices; or 
+ 1. Australian business that operating separate business units (under the same ABN) and may require different digital addresses for  different eInvoices; or 
  2. If the receiving business is not registered in Australia. 
 
 In these scenarios the issuing agency can be chosen from [the ICD set of ISO/IEC 6523](http://www.cyber-identity.com/iso6523) and the identifier can be a member of that identification scheme (such as a GLN, DUNS, etc.). 
