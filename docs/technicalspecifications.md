@@ -8,10 +8,10 @@ Service | Component | Key Specifications
 --- | --- | ---
 **Message Delivery** | Access Point | A Council profile of the [OASIS version 1.0 of the Applicability Statement 4 (AS4) Profile of the ebXML Messaging Services (ebMS) 3.0 standard – ebMS3 AS4](http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html)
 **Business Discovery**  | Digital Capability Locator (DCL) | Council profile of the [OASIS Business Document Metadata Service Location Version 1.0 (SML) Version 1.0 committee specification](http://docs.oasis-open.org/bdxr/BDX-Location/v1.0/cs01/BDX-Location-v1.0-cs01.html)
-Digital Capability Publisher (DCP)| Council profile of the [OASIS Service Metadata Publishing (SMP) Version 1.0 committee specification](http://docs.oasis-open.org/bdxr/bdx-smp/v1.0/cs01/bdx-smp-v1.0-cs01.html) 
-Business Identifiers | Council policy on the use of business identifiers | -                 
+| Digital Capability Publisher (DCP) | Council profile of the [OASIS Service Metadata Publishing (SMP) Version 1.0 committee specification](http://docs.oasis-open.org/bdxr/bdx-smp/v1.0/cs01/bdx-smp-v1.0-cs01.html) 
+| Business Identifiers | Council policy on the use of business identifiers               
 **eInvoicing** | Semantic model | Council semantic model of the core elements of an electronic invoice  |     
-Data Format | Council profile for [OASIS UBL 2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html) | - 
+| Data Format | Council profile for [OASIS UBL 2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html) 
 Table 1 - Summary of Technical Specifications 
 
 The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software.
