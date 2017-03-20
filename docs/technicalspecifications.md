@@ -12,7 +12,8 @@ Service | Component | Key Specifications
 | Business Identifiers | Council policy on the use of business identifiers               
 **eInvoicing** | Semantic model | Council semantic model of the core elements of an electronic invoice  |     
 | Data Format | Council profile for [OASIS UBL 2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html) 
-Table 1 - Summary of Technical Specifications 
+
+*Table 1 - Summary of Technical Specifications* 
 
 The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software.
 
