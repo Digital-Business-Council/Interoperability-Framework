@@ -13,6 +13,7 @@ This chapter provides more information on the technical specifications underpinn
                       | Business Identifiers| Council policy on the use of business identifiers |                    
 **eInvoicing** | Semantic model | Council semantic model of the core elements of an electronic invoice  |     
                | Data Format | Council profile for [OASIS UBL 2.1](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html) |     
+
 Table 1 - Summary of Technical Specifications 
 
 The above specifications are all further described in the documents outlined in Section 5 and can be implemented using commercial or Open Source software. ##4.2 Service Details 
@@ -24,12 +25,14 @@ The above specifications are all further described in the documents outlined in 
 To achieve interoperability between participants in an electronic messaging network, the sending and receiving Access Points must use the same messaging protocol. A published profile for electronic messaging provides a common specification for solution providers. This ensures compatibility between implementations and increases the market for solutions providers. 
 
 The profile for Message Delivery is based on the AS4 Conformance Profile of the OASIS ebMS 3.0 standard and is a subset of the ebHandler profile. As such this profile: 
- 1. Does not require implementation of any unnecessary features of ebMS3/AS4. For example, only the basic store and forward                 functionality should be required; and 
- 2. Does not implement advanced ebMS3/AS4 features (such as security and reliability), which may be more effectively addressed at the 
+
+1. Does not require implementation of any unnecessary features of ebMS3/AS4. For example, only the basic store and forward                 functionality should be required; and 
+2. Does not implement advanced ebMS3/AS4 features (such as security and reliability), which may be more effectively addressed at the 
     payload level through the use of a standardised business document envelope structure. 
 
 ebMS3/AS4 has emerged as the strategic standard for a number of initiatives around the world including: 
- - e-Justice Communication via Online data exchange (e-codex), now evolved into e-SENS; 
+
+- e-Justice Communication via Online data exchange (e-codex), now evolved into e-SENS; 
  - Electronic Exchange of Social Security Information (EESSI); 
  - European Network of Transmission System Operators for Gas (ENTSOG); 
  - European test bed for the maritime common information sharing environment in the 2020 perspective (EUCISE); 
@@ -60,6 +63,7 @@ To ensure availability, accuracy, efficiency and adherence to the specification,
 ###4.2.4 Business Discovery – Business Identifiers 
 
 A key consideration is that parties exchanging eInvoices (businesses) need to be uniquely identified within the Interoperability Framework. The Council’s Business Identifier policy establishes a scheme for uniquely identifying parties where a business identifier is a combination of: 
+
  a. An issuing agency code from a controlled set for identification schemes, using [International Code Designators (ISO/IEC 6523)](http://www.cyber-identity.com/iso6523); and 
  b. A value provided by the issuing agency 
 
@@ -68,6 +72,7 @@ To ensure global uniqueness the business identifier value needs to be valid with
 If the receiving business is registered in Australia the business identifier would most likely be their Australian Business Number (ABN) and the issuing agency will be the ABR. 
 
 The use of ABN for the Australian business identifier will benefit the business-to-business community because: 
+
  - All eligible businesses are entitled to register for an ABN at no charge; 
  - The ABN is recognised as the legal business identifier in Australia; 
  - The ABN is currently required in Australian tax invoices; 
@@ -75,6 +80,7 @@ The use of ABN for the Australian business identifier will benefit the business-
  - The Australian Business Register has a registered International Code Designator. 
 
 However, there are at least two scenarios where the ABN may not suffice: 
+
  1. Australian business that operating separate business units (under the same ABN) and may require different digital addresses for    
     different eInvoices; or 
  2. If the receiving business is not registered in Australia. 
@@ -95,11 +101,15 @@ Adopting a common eInvoice data format will simplify the effort and minimise the
 The complexity (and cost and therefore barriers to entry) rises exponentially with every additional data format used. The use of one common format between Access Points (regardless of the business applications involved) is a significant factor in the Council’s Interoperability Framework that separates it from being just another eInvoice solution. 
 
 The eInvoicing data format is based on the international, royalty free, open standard known as the [OASIS UBL 2.1 Invoice](http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html#T-INVOICE). UBL 2.1 is also a joint publication of ISO and IEC known as ISO/IEC 19845:2015 ‘Information technology - Universal business language version 2.1 (UBL v2.1)’. 
+
 UBL Invoice has been implemented by 15 governments in Europe (and also between EU member states) as well as the governments of Turkey, Peru, Colombia and Panama. CEN TC 434 has also prepared bindings (mappings) of their semantic model to the UBL 2.1 Invoice data format. In many cases UBL 2.1 Invoice data format has been use in conjunction with legacy EDI formats (such as UN/EDIFACT). In these scenarios EDIFACT data formats are supported by customising the UBL Extension structure. 
+
 A large amount of XML software is available that can be configured for use with UBL 2.1. A partial list of UBL applications is published at: http://ubl.xml.org/products. 
 
 The eInvoice Profile of the UBL 2.1 Invoice has been customised to support common Australian business requirements. However, instances of these eInvoices are all conformant to the common UBL 2.1 standard as used in other parts of the world. 
 
 ####Payments Interface
 
-UBL 2.1 is also designed to support basic trade financing practices (invoice financing, factoring, pre-shipment/ order financing, letter of credit, etc.). The UBL standard covers the full procure to pay lifecycle and the UBL Remittance Advice is used to transmit the details of complex remittance information associated with the finance transactions such as the ISO 20022 payment initiation process. UBL is not intended to address any multi-stage payment events such as those planned in the New Payments Platform (NPP). To address the interface between the commercial procure-to-pay and the financial payment processes, UBL 2.1 has been enhanced to support the financial information required for downstream processing of Invoices within financial services. By aligning information models, business vocabularies such as UBL for eInvoicing and ISO 20022 for the NPP can enable Straight Through Processing (STP) and paperless trading along the entire Financial Supply Chain. For example, the UBL Invoice and Remittance Advice can be used together with financial messages to ensure end-to-end transport of reconciliation identifiers (invoicing party references). In particular, UBL provides a solution for advanced external remittance, where the UBL Remittance Advice is used to transmit the details of complex remittance information associated with the ISO 20022 payment initiation process. 
+UBL 2.1 is also designed to support basic trade financing practices (invoice financing, factoring, pre-shipment/ order financing, letter of credit, etc.). The UBL standard covers the full procure to pay lifecycle and the UBL Remittance Advice is used to transmit the details of complex remittance information associated with the finance transactions such as the ISO 20022 payment initiation process. UBL is not intended to address any multi-stage payment events such as those planned in the New Payments Platform (NPP). To address the interface between the commercial procure-to-pay and the financial payment processes, UBL 2.1 has been enhanced to support the financial information required for downstream processing of Invoices within financial services. 
+
+By aligning information models, business vocabularies such as UBL for eInvoicing and ISO 20022 for the NPP can enable Straight Through Processing (STP) and paperless trading along the entire Financial Supply Chain. For example, the UBL Invoice and Remittance Advice can be used together with financial messages to ensure end-to-end transport of reconciliation identifiers (invoicing party references). In particular, UBL provides a solution for advanced external remittance, where the UBL Remittance Advice is used to transmit the details of complex remittance information associated with the ISO 20022 payment initiation process. 
