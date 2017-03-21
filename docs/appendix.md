@@ -4,8 +4,9 @@
 
 This document describes the Council endorsed design principles that informed the development of this eInvoicing Interoperability framework (eIFW). 
 
-|**Principle 1: Extensibility** | **Select standards that will not inhibit the future extension of the eIFW to other elements of the procure-to-pay process.**| 
+| | |
 | --- |------- |
+|**Principle 1: Extensibility** | **Select standards that will not inhibit the future extension of the eIFW to other elements of the procure-to-pay process.**| 
 |Rationale | • The goal of implementing the eIFW is to help bridge ‘islands of trade’ in order to reduce the cost of doing business.
 | |  • Savings to the economy will accrue due to increased automation and the reduction of error prone paper based processing of invoices.|
 | |• The success of the interoperability framework is measured by the rates of straight through processing and conformance with the standards, as well as the value of savings and improved experience of Australian businesses, particularly the SME market. |
