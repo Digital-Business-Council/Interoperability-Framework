@@ -5,6 +5,7 @@
 This document is intended to assist with the early engagement of business and technology stakeholders involved in or intending to be involved in the adoption or continuation of an eInvoicing system within the business or business sector (including Government). It describes the components of a framework of business requirements, subsequent standards and implementation guidelines to pave the way for a whole of economy approach to eInvoicing in Australia. The longer term strategy is to leverage these components to digitise the complete set of business to business interactions for example, the ‘procure to pay’ or ‘order to cash’ lifecycles.
 
 The intended audiences are:
+
 |![influencers_Logo](/images/influencers.PNG)   |    ![implementors_Logo](/images/implementors.PNG) | 
 | ---| ---|
 |BUSINESS & BUSINESS INFLUENCERS | IMPLEMENTERS|
