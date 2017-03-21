@@ -4,13 +4,13 @@
 
 This document describes the Council endorsed design principles that informed the development of this eInvoicing Interoperability framework (eIFW). 
 
-**Principle 1: Extensibility** | **Select standards that will not inhibit the future extension of the eIFW to other elements of the procure-to-pay process.**| 
+|**Principle 1: Extensibility** | **Select standards that will not inhibit the future extension of the eIFW to other elements of the procure-to-pay process.**| 
 | --- |------- |
-Rationale | • The goal of implementing the eIFW is to help bridge ‘islands of trade’ in order to reduce the cost of doing business.
- |  • Savings to the economy will accrue due to increased automation and the reduction of error prone paper based processing of invoices.
- |• The success of the interoperability framework is measured by the rates of straight through processing and conformance with the standards, as well as the value of savings and improved experience of Australian businesses, particularly the SME market. 
-Implications | • The design of the interoperability framework would need to be balanced between focussing on immediate implementation of process automation in the accounts payable stages and strategically strategic alignment to the end to end procure to pay process lifecycle, post the procurement award stages.
- |• The standards should be designed to facilitate automation of common processes between buyers and sellers. 
+|Rationale | • The goal of implementing the eIFW is to help bridge ‘islands of trade’ in order to reduce the cost of doing business.
+| |  • Savings to the economy will accrue due to increased automation and the reduction of error prone paper based processing of invoices.|
+| |• The success of the interoperability framework is measured by the rates of straight through processing and conformance with the standards, as well as the value of savings and improved experience of Australian businesses, particularly the SME market. |
+| Implications | • The design of the interoperability framework would need to be balanced between focussing on immediate implementation of process automation in the accounts payable stages and strategically strategic alignment to the end to end procure to pay process lifecycle, post the procurement award stages.|
+| |• The standards should be designed to facilitate automation of common processes between buyers and sellers. |
 
 
 **Principle 2: Nonproprietary**|**Choose standards that are open, royalty free and vendor agnostic.**|
