@@ -16,21 +16,20 @@ The intended audiences are:
 
 Audience Reading Guide | Section | BUSINESS & BUSINESS INFLUENCERS| IMPLEMENTERS 
 ---|---|---|---
-Introduction | 1 | | 
-Motivation | 2 | | 
-Interoperability Framework | 3 | | 
-Technical Specifications | 4 | | 
-Implementation | 5 | | 
-Governance | 6 | | 
+Introduction | 1 | ![orange_Logo](/images/orange.PNG)| 
+Motivation | 2 |![orange_Logo](/images/orange.PNG) | 
+Interoperability Framework | 3 |![orange_Logo](/images/orange.PNG)  | 
+Technical Specifications | 4 | | ![yellow_Logo](/images/yellow.PNG) 
+Implementation | 5 | | ![yellow_Logo](/images/yellow.PNG) 
+Governance | 6 | | ![yellow_Logo](/images/yellow.PNG) 
 Forward Plan | 7 | | 
-Reference | 8 | | 
-Glossary | 9 | | 
-Appendix | 10 | | 
+Reference | 8 |![orange_Logo](/images/orange.PNG) | 
+Glossary | 9 |![orange_Logo](/images/orange.PNG) | 
+Appendix | 10 | ![orange_Logo](/images/orange.PNG)| 
 
 	 	 
-Primary Audience | img 
+Primary Audience | ![orange_Logo](/images/orange.PNG)
 ---|---
-**Secondary Audience** | img
-
+**Secondary Audience** | ![yellow_Logo](/images/yellow.PNG) 
 
 
