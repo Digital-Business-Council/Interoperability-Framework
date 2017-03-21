@@ -1,4 +1,4 @@
-# 3. The eInvoicing Interoperability framework
+ # 3. The eInvoicing Interoperability framework
 
 The Framework aims is to provide certainty on how a prescribed set of established open standards can be used to extend eInvoicing to all Australian businesses, minimise the cost of implementation for software providers and enhance business interactions (especially for micro to small businesses) by making invoicing an automatic digital interaction. 
 
@@ -9,7 +9,8 @@ The Framework aims is to provide certainty on how a prescribed set of establishe
 
 The Council’s Interoperability Framework is based on the concept of standardising interconnections around what is called a ‘four corner model’. Similar models have emerged from the financial sector (for inter-bank interoperability), telecommunications sector (for global roaming) and are already being used in many countries for eInvoicing. In Australia, the superannuation sector (via Superstream) also uses a standardised form of the ‘four corner model’. 
 
-Under this logical model, businesses can send messages : 
+Under this logical model, businesses can send messages: 
+
  - directly to each other by implementing their own Access Points (without intermediaries); 
  - via a mutual 3rd party Access Point (3-corners); or 
  - via two independent external service providers (4-corners). 
@@ -23,15 +24,15 @@ A key requirement for the eInvoicing Interoperability Framework is that a Buyer�
 
 The actors involved in eInvoicing are: 
 
-**Buyers:** The Buyer is the legal person or organisation who purchases goods or services;
++ **Buyers:** The Buyer is the legal person or organisation who purchases goods or services;
 
-**Suppliers:** The Supplier is the legal person or organisation who provides a good or service;
++ **Suppliers:** The Supplier is the legal person or organisation who provides a good or service;
 
-**Access Point:** A service (in-house or outsourced) that sends and receives eInvoices and passes them on to the respective participants;
++ **Access Point:** A service (in-house or outsourced) that sends and receives eInvoices and passes them on to the respective participants;
 
-**Digital Capability Locator:** A service for looking up the location of the Digital Capability Publisher for a Buyer or Supplier; and
++ **Digital Capability Locator:** A service for looking up the location of the Digital Capability Publisher for a Buyer or Supplier; and
 
-**Digital Capability Publishers:** Providers of a service for Buyers and Suppliers to store details of their capabilities, and includes what scenarios they can process, the data formats they support and the delivery address for their eInvoices.
++ **Digital Capability Publishers:** Providers of a service for Buyers and Suppliers to store details of their capabilities, and includes what scenarios they can process, the data formats they support and the delivery address for their eInvoices.
 
 eInvoicing using the Framework means that the business applications of the Suppliers and Buyers (corners one and four) do not exchange invoices directly with each other but via Access Points (corners two and three). Any organisation (such as a Buyer or Supplier) has the choice of using a third party service provider to provide an Access Point or to implement their own.
 
@@ -45,13 +46,13 @@ Interoperability means working together – a collaboration of systems, services
 
 There are four components to the Framework: 
 
-**Legislation and policy:** Reducing legal or policy reasons why paper is preferred to digital. This includes recommending refinements to legislation and policy, if any, to remove impediments or barriers to adoption; 
++ **Legislation and policy:** Reducing legal or policy reasons why paper is preferred to digital. This includes recommending refinements to legislation and policy, if any, to remove impediments or barriers to adoption; 
 
-**Organisational interoperability:** Describing business process scenarios and standardising how businesses discover each other’s digital capabilities for these scenarios;
++ **Organisational interoperability:** Describing business process scenarios and standardising how businesses discover each other’s digital capabilities for these scenarios;
 
-**Semantic interoperability:** Standardising the data exchanged so the information is commonly understood by the parties involved; and
++ **Semantic interoperability:** Standardising the data exchanged so the information is commonly understood by the parties involved; and
 
-**Technical interoperability:** Technical standards and protocols to ensure information is exchanged securely and reliably between parties (directly or via service providers). 
++ **Technical interoperability:** Technical standards and protocols to ensure information is exchanged securely and reliably between parties (directly or via service providers). 
 
 
 
@@ -69,6 +70,7 @@ Within the public sector there is ongoing work within the three levels of govern
 ### 3.3.3 Agreements and charges
 
 As part of the work to provide implementation guidance and ongoing governance of the framework the Council is expected to provide interoperability agreements for service providers so that: 
+
  - There is an appropriate approach to accreditation and service levels for service providers with periodic reviews; 
  - There will be no charges for exchanging documents between Access Points; and 
  - There will be an open market for providing Access Points. 
@@ -101,6 +103,7 @@ The business processes introduced in this document are industry neutral and depi
 
 4. **[Optional] Buyer’s business application to Supplier’s business application (CORNERS FOUR to ONE)** 
     The Buyer may acknowledge when the invoice has been received. In which case:
+    
     - The Buyer’s business application verifies the invoice and sends some form of acknowledgement to their Access Point (CORNER THREE);
     - Buyer’s Access Point to Supplier’s Access Point (CORNERS THREE to TWO) 
       The Buyer’s Access Point transforms the Buyer’s acknowledgement into a standardised response message (if they differ), uses the
@@ -128,6 +131,7 @@ A key consideration in the Framework is that all parties who may receive eInvoic
 Business Identifiers are information elements that are used to establish the unique identity of businesses (organisations, agencies, branches within organisations, etc.) within the Framework. They are used to identify the parties (sender or receiver) for both business discovery and messaging exchanges. Business identifiers also appear within eInvoices themselves to identify parties such as the Supplier and Buyer. While it is common that the parties sending and receiving an eInvoice are also the Supplier and Buyer, it is not a requirement that they be so and different Business Identifiers may be used for these roles. 
 
 **Framework Business Identifiers;**
+
 - Identify any Australian or international private and public sector recipient of digital documents (for example a Buyer) in a  standardised and platform independent way; 
 - Allows multiple established identification schemes and scheme registries; and 
 - Are encoded in a standardised and machine process-able data format. 
@@ -162,6 +166,7 @@ The semantic model is an attempt to remove the language/syntax/grammar/format fr
 The Core eInvoice Semantic Model consists of a dictionary of terms, concepts used, the minimal content of a document, the rules validating the content, the use of identifiers, and code lists. Adopting a single common semantic model promotes reliable information exchange and ensures technology neutrality. It is also easier and cheaper for enterprises to subscribe to a single model as compared to several. 
 
 **The Semantic Model: **
+
  - Incorporates invoice requirements for regulatory e.g. tax, commercial, technical, financial, and industry extensions; 
  - Will be aligned with the Australian Reporting Dictionary (through incorporation); 
  - Exploits the ability to share the model and gain efficiencies of a standardised data model; 
@@ -176,6 +181,7 @@ The Core eInvoice Semantic Model in itself does not enable software developers t
 It may help to remember that the semantic model is for business people to understand while the digital data format is for software developers to understand and computer programs to process. 
 
 **The eInvoicing data format:**
+
  - Is based on an international standard; 
  - Is aligned with relevant and established international standards. Australian standards and practices will only be adopted where international standards are not applicable; 
  - Encompasses procure to pay documents: 
@@ -193,6 +199,7 @@ It may help to remember that the semantic model is for business people to unders
 ### 3.6.1 eDelivery 
 
 Technical interoperability facilitates an open trading partner network where: 
+
 - **Any Buyer and Supplier will be able to:** 
  
   - Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
@@ -215,6 +222,7 @@ The components of eDelivery include business discovery, message delivery and tru
 ### 3.6.2 Business Discovery
 
 Two services are provided to achieve dynamic and adaptable business discovery: 
+
  - Digital Capability Locator (DCL)
    
    DCL lookup enables a sending Access Point to dynamically discover the digital address of the recipient's Digital Capability Publisher (using their business identifier); and
@@ -224,6 +232,7 @@ Two services are provided to achieve dynamic and adaptable business discovery:
    The sending Access Point will then use the DCP's address to discover the digital capabilities (such as digital address, document types, processes and message protocals supported) of the reicpient.
    
 #### Business discovery will:
+
  - Achieve interoperability and accessibility – as information about participants (delivery addresses and transactions supported) will be easily discoverable and accessible to all parties in the framework; 
  - Support the expansion of the eDelivery network by allowing new businesses to join in a flexible manner; and 
  - Provide the ability to switch or change recipient addressing information when required. 
@@ -235,21 +244,29 @@ Message Delivery enables the exchange of any digital documents (such as eInvoice
 Access Points implement the Message Delivery profile and ensure that data is sent and received reliably and securely. 
 
 The Message Delivery profile has the following features:
+
  - Interoperability:
+ 
   - Is based on an established international standard;
   - Will support the four-corner model;
   - Will also support a three-corner model (two businesses using the same third party access point);
   - Is not dependent on the format or content of the document delivered; and
   - Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
+  
  - Security:
+ 
   - Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
   - Supports the encryption to preserve confidentiality; and
   - Ensures the origin and destination Access Points are trusted;
+  
  - Reliability:
+ 
   - Guarantees the data and documents are delivered once and only once;
   - Provides certainty that the data and documents are delivered; and
   - Ensures non-redpudiation of receipt and origin of every exchange; and
+  
  - Scalability and Performance:
+ 
   - Adapts to an increasing number of Access Points;
   - Allows for large documents to be transmitted; and
   - Supports high throughputs
@@ -259,12 +276,14 @@ The Message Delivery profile has the following features:
 The current Framework establishes a trusted environment between accredited Access Points3 (corners 2 and 3). Future development may also include creating a trust domain for end-to-end authentication if required. 
 
 The trust model:
+
  - Leverages the strength of Public Key Infrastructure for security and confidentiality; 
  - Overcomes the complexity and scalability issues with traditional digital certificate based public key infrastructure; 
  - Provides freedom of choice to Access Points to maximise use of current investments; and 
  - Provides a viable solution until there is a national digital credential initiative, which may take time to develop and implement. 
  
 The approach taken is to leverage the experiences and successes of both local and international networks (for example, services such as PEPPOL, e-SENS and Superstream) to:
+
  - Establish strong governance under the auspices of the Council. This would include Digital Capability Publisher and Access Point provider interoperability agreements, binding implementation practices, testing and certification arrangements; 
  - Ensure Business Discovery only supplies details of accredited Digital Capability Publishers and Access Point providers;
  - Use digital certificates to ensure confidentiality between Access Points and to validate that messages are only received from accredited Access Points. It should be noted the mutual exchange of certificates is a widely used simple implementation of the Direct Trust Model. Due to the limited scalability of mutual certificate exchange, the approach of recording public keys with the Council’s centralised register of accredited service providers (updated during the accreditation process) is prescribed. To cater for business application level trust a similar model could potentially be used, with the storage of a business certificate in its Digital Capability Publisher; and 
