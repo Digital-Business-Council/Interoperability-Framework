@@ -241,26 +241,26 @@ Access Points implement the Message Delivery profile and ensure that data is sen
 The Message Delivery profile has the following features:
 
   - Interoperability:
-   + Is based on an established international standard;
-   + Will support the four-corner model;
-   + Will also support a three-corner model (two businesses using the same third party access point);
-   + Is not dependent on the format or content of the document delivered; and
-   + Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
+    + Is based on an established international standard;
+    + Will support the four-corner model;
+    + Will also support a three-corner model (two businesses using the same third party access point);
+    + Is not dependent on the format or content of the document delivered; and
+    + Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
   
  - Security:
-  + Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
-  + Supports the encryption to preserve confidentiality; and
-  + Ensures the origin and destination Access Points are trusted;
+   + Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
+   + Supports the encryption to preserve confidentiality; and
+   + Ensures the origin and destination Access Points are trusted;
   
  - Reliability:
-  + Guarantees the data and documents are delivered once and only once;
-  + Provides certainty that the data and documents are delivered; and
-  + Ensures non-redpudiation of receipt and origin of every exchange; and
+   + Guarantees the data and documents are delivered once and only once;
+   + Provides certainty that the data and documents are delivered; and
+   + Ensures non-redpudiation of receipt and origin of every exchange; and
   
  - Scalability and Performance:
-  + Adapts to an increasing number of Access Points;
-  + Allows for large documents to be transmitted; and
-  + Supports high throughputs
+   + Adapts to an increasing number of Access Points;
+   + Allows for large documents to be transmitted; and
+   + Supports high throughputs
   
 ### 3.6.4 Trust Enablement
 
