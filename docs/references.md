@@ -19,7 +19,7 @@
 
  8. OASIS, 2013, AS4 Profile of ebMS 3.0 version 1.0, viewed January 2016 [http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html](http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/profiles/AS4-profile/v1.0/os/AS4-profile-v1.0-os.html)
 
- 9. Cyber Identity 2015, viewed February 2016 [http://www.cyber-identity.com/iso6523[(http://www.cyber-identity.com/iso6523) 
+ 9. Cyber Identity 2015, viewed February 2016 [http://www.cyber-identity.com/iso6523](http://www.cyber-identity.com/iso6523) 
  
  10. NICTA, 2015, viewed September 2015 [https://www.nicta.com.au](https://www.nicta.com.au)
  
