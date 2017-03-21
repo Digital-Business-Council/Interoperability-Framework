@@ -1,8 +1,7 @@
- # 3. The eInvoicing Interoperability framework
+
+# 3. The eInvoicing Interoperability framework
 
 The Framework aims is to provide certainty on how a prescribed set of established open standards can be used to extend eInvoicing to all Australian businesses, minimise the cost of implementation for software providers and enhance business interactions (especially for micro to small businesses) by making invoicing an automatic digital interaction. 
-
-
 
 
 ## 3.1 What is it
@@ -202,16 +201,16 @@ Technical interoperability facilitates an open trading partner network where:
 
 - **Any Buyer and Supplier will be able to:** 
  
-  - Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
+  + Send recognised digital documents to any registered trading partner through a network of approved Access Points; and
  
 - **All Access Points will:**
  
-  - Conform to the same sets of standards and business service rules;
-  - Be secured, by conforming to the trust mechanism between Access Points; 
-  - Exchange digital documents with other Access Points using the Council approved Data Format; 
-  - Provide interoperability of data exchanged by supporting a common semantic model, that can be used to transform different formats as required; 
-  - Derive the digital address of the eInvoice recipient through the Business Discovery service; and 
-  - Access the Business Discovery service independent of the document exchange protocol to ensure other protocols may be supported in future. 
+  + Conform to the same sets of standards and business service rules;
+  + Be secured, by conforming to the trust mechanism between Access Points; 
+  + Exchange digital documents with other Access Points using the Council approved Data Format; 
+  + Provide interoperability of data exchanged by supporting a common semantic model, that can be used to transform different formats as required; 
+  + Derive the digital address of the eInvoice recipient through the Business Discovery service; and 
+  + Access the Business Discovery service independent of the document exchange protocol to ensure other protocols may be supported in future. 
   
 eDelivery will create a community of federated Access Points that are all conformant to the same technical requirements and therefore capable of interacting with each other. As a result, businesses that have developed business systems independently from each other or implemented commercially-off-the-shelf (COTS) solutions/services can reliably and securely exchange digital business documents.
 
@@ -224,11 +223,9 @@ The components of eDelivery include business discovery, message delivery and tru
 Two services are provided to achieve dynamic and adaptable business discovery: 
 
  - Digital Capability Locator (DCL)
-   
    DCL lookup enables a sending Access Point to dynamically discover the digital address of the recipient's Digital Capability Publisher (using their business identifier); and
    
  - Digital Capability Publishers (DCP)
- 
    The sending Access Point will then use the DCP's address to discover the digital capabilities (such as digital address, document types, processes and message protocals supported) of the reicpient.
    
 #### Business discovery will:
@@ -245,31 +242,27 @@ Access Points implement the Message Delivery profile and ensure that data is sen
 
 The Message Delivery profile has the following features:
 
- - Interoperability:
- 
-  - Is based on an established international standard;
-  - Will support the four-corner model;
-  - Will also support a three-corner model (two businesses using the same third party access point);
-  - Is not dependent on the format or content of the document delivered; and
-  - Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
+  - Interoperability:
+   + Is based on an established international standard;
+   + Will support the four-corner model;
+   + Will also support a three-corner model (two businesses using the same third party access point);
+   + Is not dependent on the format or content of the document delivered; and
+   + Allows interaction to occur asynchronously, i.e. the receieving party can be offline;
   
  - Security:
- 
-  - Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
-  - Supports the encryption to preserve confidentiality; and
-  - Ensures the origin and destination Access Points are trusted;
+  + Ensures the integrity of transmissions is preserved, such that a transmission cannot be tampered with;
+  + Supports the encryption to preserve confidentiality; and
+  + Ensures the origin and destination Access Points are trusted;
   
  - Reliability:
- 
-  - Guarantees the data and documents are delivered once and only once;
-  - Provides certainty that the data and documents are delivered; and
-  - Ensures non-redpudiation of receipt and origin of every exchange; and
+  + Guarantees the data and documents are delivered once and only once;
+  + Provides certainty that the data and documents are delivered; and
+  + Ensures non-redpudiation of receipt and origin of every exchange; and
   
  - Scalability and Performance:
- 
-  - Adapts to an increasing number of Access Points;
-  - Allows for large documents to be transmitted; and
-  - Supports high throughputs
+  + Adapts to an increasing number of Access Points;
+  + Allows for large documents to be transmitted; and
+  + Supports high throughputs
   
 ### 3.6.4 Trust Enablement
 
