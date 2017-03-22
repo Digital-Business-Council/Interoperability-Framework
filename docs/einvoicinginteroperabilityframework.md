@@ -177,7 +177,7 @@ The Core eInvoice Semantic Model consists of a dictionary of terms, concepts use
 ### 3.5.3 Digital Data Format 
 The Core eInvoice Semantic Model in itself does not enable software developers to create the necessary eInvoice data files to exchange. The semantic model needs to be expressed in a standardised digital data format. The term data format is used to mean the software expression of the information described by the semantic model (also called the message syntax or markup language). In the data format all the data elements, concepts and validation rules defined in the semantic model are expressed in ways computer applications can process. 
 
-t may help to remember that the semantic model is for business people to understand while the digital data format is for software developers to understand and computer programs to process. 
+It may help to remember that the semantic model is for business people to understand while the digital data format is for software developers to understand and computer programs to process. 
 
 **The eInvoicing data format:**
 
