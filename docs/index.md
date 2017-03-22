@@ -16,17 +16,16 @@ The intended audiences are:
 
 Audience Reading Guide | Section | BUSINESS | IMPLEMENTERS 
 ---|---|---|---
-Introduction | 1 | ![orange_Logo](/images/orange.PNG)| 
-Motivation | 2 |![orange_Logo](/images/orange.PNG) | 
-Interoperability Framework | 3 |![orange_Logo](/images/orange.PNG)  | 
-Technical Specifications | 4 | | ![yellow_Logo](/images/yellow.PNG) 
-Implementation | 5 | | ![yellow_Logo](/images/yellow.PNG) 
-Governance | 6 | | ![yellow_Logo](/images/yellow.PNG) 
-Forward Plan | 7 | | 
-Reference | 8 |![orange_Logo](/images/orange.PNG) | 
-Glossary | 9 |![orange_Logo](/images/orange.PNG) | 
-Appendix | 10 | ![orange_Logo](/images/orange.PNG)| 
-
+Introduction | 1 | ![orange_Logo](/images/orange.PNG)| ![yellow_Logo](/images/yellow.PNG) 
+Motivation | 2 |![orange_Logo](/images/orange.PNG) | ![yellow_Logo](/images/yellow.PNG) 
+Interoperability Framework | 3 |![orange_Logo](/images/orange.PNG)  | ![yellow_Logo](/images/yellow.PNG) 
+Technical Specifications | 4 |![yellow_Logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG)
+Implementation | 5 | ![yellow_Logo](/images/yellow.PNG) | ![orange_Logo](/images/orange.PNG)
+Governance | 6 | ![yellow_Logo](/images/yellow.PNG) | ![orange_Logo](/images/orange.PNG)
+Forward Plan | 7 |![yellow_Logo](/images/yellow.PNG)  | ![orange_Logo](/images/orange.PNG)
+Reference | 8 |![orange_Logo](/images/orange.PNG) | ![yellow_Logo](/images/yellow.PNG) 
+Glossary | 9 |![orange_Logo](/images/orange.PNG) | ![yellow_Logo](/images/yellow.PNG) 
+Appendix | 10 | ![orange_Logo](/images/orange.PNG)| ![yellow_Logo](/images/yellow.PNG) 
 	 	 
 Primary Audience | ![orange_Logo](/images/orange.PNG)
 ---|---
